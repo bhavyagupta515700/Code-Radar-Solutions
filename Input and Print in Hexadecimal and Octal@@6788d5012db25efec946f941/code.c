@@ -2,9 +2,8 @@
 
 int main() {
     int num;
-    
     scanf("%d", &num);
-    printf("The hexadecimal representation is: %X\n", num);
-    printf("The octal representation is: %o\n", num);
+    printf("Hexadecimal : %X", num);
+    printf("Octaal : %o", num);
     return 0;
 }
