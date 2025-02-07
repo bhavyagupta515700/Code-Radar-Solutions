@@ -19,7 +19,7 @@ int main() {
     }
 
     // Print the grade
-    printf("The grade is %c.\n", grade);
+    printf("%c\n", grade);
 
     return 0;
 }
