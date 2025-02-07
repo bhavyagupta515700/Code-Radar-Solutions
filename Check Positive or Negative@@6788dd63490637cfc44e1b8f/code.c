@@ -1,16 +1,18 @@
-#include<stdio.h>
-int main()
-{
-    int num;
-    scanf("%d",&num);
-    if(num>0){
-        print("Positive",num);
-    }
-    else if(num<0){
-        printf("Negative",num);
-    }
-    else{
-        printf("zero");
+#include <stdio.h>
 
+int main() {
+    int number;
+
+    scanf("%d", &number);
+
+    // Checking if the number is positive, negative, or zero
+    if (number > 0) {
+        printf("Positive\n", number);
+    } else if (number < 0) {
+        printf("Negative\n", number);
+    } else {
+        printf("Zero.\n");
     }
-    }
+
+    return 0;
+}
