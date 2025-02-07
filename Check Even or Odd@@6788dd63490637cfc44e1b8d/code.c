@@ -7,9 +7,9 @@ int main() {
 
     // Decision making to check if the number is even or odd
     if (number % 2 == 0) {
-        printf(" even .\n", number);
+        printf("Even \n", number);
     } else {
-        printf("% odd.\n", number);
+        printf("Odd\n", number);
     }
 
     return 0;
