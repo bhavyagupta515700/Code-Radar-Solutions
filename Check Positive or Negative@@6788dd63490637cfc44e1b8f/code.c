@@ -11,7 +11,7 @@ int main()
         printf("%d",num2);
     }
     else{
-        printf("zero")
+        printf("zero");
 
     }
     }
