@@ -6,8 +6,11 @@ int main()
     if(num1 > num2){
         printf("Yes\n");
     }
-    else{
+    else if (num1 < num2){
         printf("No\n");
+    }
+    else{
+        print("Yes");
     }
     return 0;
 }
