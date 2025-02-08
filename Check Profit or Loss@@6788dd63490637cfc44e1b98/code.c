@@ -11,9 +11,9 @@ int main() {
     profitOrLoss = sellingPrice - costPrice;
     
     if (profitOrLoss > 0) {
-        printf("Profit: %.2f\n", profitOrLoss);
+        printf("Profit", profitOrLoss);
     } else if (profitOrLoss < 0) {
-        printf("Loss: %.2f\n", -profitOrLoss);
+        printf("Loss", -profitOrLoss);
     } else {
         printf("No Profit, No Loss.\n");
     }
