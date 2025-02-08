@@ -9,5 +9,8 @@ int main()
     else if (number==0 ){
         printf("Out of Range\n",number);
     }
+    else{
+        printf("out of Range",number);
+    }
     return 0;
 }
