@@ -9,8 +9,11 @@ int main()
     else if (number%3==0){
         printf("Divisible by 3\n",number);
     }
-    else{
+    else if(num%5==0){
         printf("Divisible by 5\n",number);
+    }
+    else{
+        printf("Not Divisible\n",number);
     }
     return 0;
 }
