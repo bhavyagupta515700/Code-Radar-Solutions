@@ -1,18 +1,18 @@
 #include<stdio.h>
 int main()
 {
-    int side1,side2,side3;
-    scanf("%d",&side1);
-    scanf("%d",&side2);
-    scanf("%d",&side3);
+    float side1,side2,side3;
+    scanf("%f",&side1);
+    scanf("%f",&side2);
+    scanf("%f",&side3);
     if(side1==side2 && side2==side3){
-        printf("Equilateral %d");
+        printf("Equilateral %f");
     }
     else if (side 1==side2 || side 2==side3 ){
-        printf("Isosceles %d");
+        printf("Isosceles %f");
     }
     else{
-        printf("Scalene %d");
+        printf("Scalene %f");
     }
     return 0;
 }
