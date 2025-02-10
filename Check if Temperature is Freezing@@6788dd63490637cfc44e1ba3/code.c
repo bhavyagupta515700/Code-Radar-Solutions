@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main()
 {
-    int temp;
-    scanf("%d",&temp);
+    float temp;
+    scanf("%f",&temp);
     if(temp<=0){
         printf("Freezing\n");
     }
@@ -10,5 +10,5 @@ int main()
         printf("Above Freezing\n")
     }
     return 0;
-    
+
 }
