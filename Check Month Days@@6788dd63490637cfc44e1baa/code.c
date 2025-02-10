@@ -1,0 +1,45 @@
+#include<stdio.h>
+int main()
+{
+    int month;
+    scanf("%d",&month);
+    if(month==1){
+        printf("31\n",month);
+    }
+    else if(month==2){
+        printf("28\n",month);
+
+    }
+    else if(month==3){
+        printf("31\n",month);
+    }
+    else if(month==4){
+        printf("30\n",month);
+    }
+    else if(month==5){
+        printf("31\n",month);
+    }
+    else if(month==6){
+        printf("30\n",month);
+    }
+    else if(month==7){
+        printf("31\n",month);
+    }
+    else if(month==8){
+        printf("30",month);
+    }
+    else if(month==9){
+        printf("31",month);
+    }
+    else if(month==10){
+        printf("30",month);
+    }
+    else if(month==11){
+        printf("30",month);
+    }
+    else{
+        printf("31",month);
+    }
+    return 0;
+
+}
