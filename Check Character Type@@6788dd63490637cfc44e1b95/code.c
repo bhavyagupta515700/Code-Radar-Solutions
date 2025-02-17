@@ -5,12 +5,12 @@ int main() {
     char ch;
     
     // Input a character
-    printf("Enter a character: ");
+    
     scanf("%c", &ch);
     
     // Check if the character is a digit
     if (isdigit(ch)) {
-        printf("'%c' is a digit.\n", ch);
+        printf("Digit\n", ch);
     }
     // Check if the character is a vowel
     else if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' ||
