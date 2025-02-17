@@ -14,11 +14,10 @@ int main() {
         grade = 'C';
     } else if (marks >= 60) {
         grade = 'D';
-    } else {
+    } else { 
         grade = 'F';
     }
-
-    // Print the grade
+     //Print the grade
     printf("%c\n", grade);
 
     return 0;
