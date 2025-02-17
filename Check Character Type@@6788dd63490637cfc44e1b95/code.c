@@ -7,12 +7,7 @@ int main() {
     scanf("%c", &ch);
     
     // Check if the character is a digit
-    if (isdigit(ch)) {
-        printf("Digit\n");
-    }
-    // Check if the character is a vowel
-    else if (isalpha(ch)) {
-        if (ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U' || 
+         if(ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U' || 
             ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
             printf("Vowel\n");
         } else {
