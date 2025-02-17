@@ -1,16 +1,12 @@
-#include <stdio.h>
-
-int main() {
+#include<stdio.h>
+int main()
+{
     int number;
-
-    scanf("%d", &number);
-
-    // Decision making to check if the number is even or odd
-    if (number % 2 == 0) {
-        printf("Even \n", number);
-    } else {
-        printf("Odd\n", number);
+    if(number%2==0){
+        printf("Even\n");
     }
-
+    else{
+        printf("Odd\n");
+    }
     return 0;
 }
