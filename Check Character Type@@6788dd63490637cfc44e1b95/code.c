@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <ctype.h> // for isdigit() and isalpha()
+
 
 int main() {
     char ch;
