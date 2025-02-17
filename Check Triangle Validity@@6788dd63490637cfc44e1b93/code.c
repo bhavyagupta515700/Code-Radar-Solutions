@@ -3,11 +3,11 @@ int main()
 {
     int side1,side2,side3;
     scanf("%d%d%d",&side1,&side2,&side3);
-    if(side1>side2+side3&&side2>side1+side3&&side3>side1+side2){
-        printf("Valid");
+    if(side1>side2+side3 && side2>side1+side3 && side3>side1+side2){
+        printf("Valid",side1,side2,side3);
     }
     else{
-        printf("Invalid");
+        printf("Invalid",side1,side2,side3);
     }
     return 0;
 }
