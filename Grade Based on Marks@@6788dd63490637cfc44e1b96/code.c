@@ -7,7 +7,7 @@ int main() {
     scanf("%d", &marks);
 
     if (marks >= 90) {
-        grade = 'A';
+        grade = ' A';
     } else if (marks >= 80) {
         grade = 'B';
     } else if (marks >= 70) {
