@@ -1,15 +1,12 @@
-#include <stdio.h>
-
-int main() {
-    int a, b, c;
-    
-    scanf("%d %d %d", &a, &b, &c);
-
-    if (a + b > c && a + c > b && b + c > a) {
-        printf("Valid\n", a, b, c);
-    } else {
-        printf("Invalid\n", a, b, c);
+#include<stdio.h>
+int main()
+{
+    int side1,side2,side3;
+    scanf("%d %d %d ",&side1,&side2,&side3);
+    if(side1+side2>side3 && side2+side3>side1 && side3+side1>side2){
+        printf("Valid");
     }
-
-    return 0;
+    else{
+        printf("Invalid");
+    }
 }
