@@ -12,7 +12,7 @@ int main() {
         }
         // Print stars for the triangle
         for (int k = 1; k <= i; k++) {
-            printf("* ");
+            printf("*");
         }
         printf("\n");
     }
