@@ -10,7 +10,7 @@ int main() {
         for (int j = 0; j < n; j++) {
             // Print stars for the boundary
             if (i == 0 || i == n - 1 || j == 0 || j == n - 1) {
-                printf("* ");
+                printf("*");
             } else {
                 printf("  "); // Print spaces for the hollow part
             }
