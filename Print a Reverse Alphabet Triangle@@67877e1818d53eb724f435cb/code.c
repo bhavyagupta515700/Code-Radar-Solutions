@@ -1,16 +1,15 @@
-// Your code here...
 #include <stdio.h>
 
 int main() {
-    int n;
+    int N;
+    scanf("%d", &N);
 
-    scanf("%d", &n);
-
-    for (int i = 1; i <= n; i++) { // Outer loop for rows
-        for (int j = i; j >= 1; j--) { // Inner loop for reverse alphabets
-            printf("%c ", 'A' + j - 1); // Calculate the character using ASCII values
+    for (int i = N; i >= 1; i--) { // Loop for rows
+        char ch = 'A'; // Start from 'A'
+        for (int j = 1; j <= i; j++) { // Loop for alphabets in each row
+            printf("%c ", ch + i - j); // Print alphabets in reverse order
         }
-        printf("\n"); // Move to the next line after each row
+        printf("\n"); // Move to the next line
     }
 
     return 0;
