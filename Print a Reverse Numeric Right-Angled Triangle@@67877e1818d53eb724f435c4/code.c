@@ -1,16 +1,17 @@
-// Your code here...
 #include <stdio.h>
 
 int main() {
-    int n;
-    scanf("%d", &n);
+    int N;
     
-    for (int i = 1; i <= n; i++) { 
-        for (int j = i; j >= 1; j--) { 
+    scanf("%d", &N);
+
+    for (int i = N; i >= 1; i--) { // Loop for rows
+        for (int j = 1; j <= i; j++) { // Loop for numbers in each row
             printf("%d ", j);
         }
-        printf(""); 
+        printf("\n"); // Move to the next line
     }
-    
+
     return 0;
 }
+
