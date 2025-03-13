@@ -1,19 +1,23 @@
 #include <stdio.h>
 
-int main() {
-    int i, j, N, space;
-    
-    scanf("%d", &N);
-    
-    for (i = 1; i <= N; i++) {
-        for (space = 1; space <= N - i; space++) {
-            printf("  ");
+void printPyramid(int rows) {
+    for (int i = 1; i <= rows; i++) {
+        
+        for (int j = i; j < rows; j++) {
+            printf(" ");
         }
-        for (j = 1; j <= (2 * i - 1); j++) {
-            printf("* ");
+  
+        for (int k = 1; k <= (2 * i - 1); k++) {
+            printf("*");
         }
-        printf("\n");
+        printf("\n"); 
     }
-    
+}
+
+int main() {
+    int N;
+    scanf("%d", &N);
+    printPyramid(N);
     return 0;
 }
+
